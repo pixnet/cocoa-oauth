@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "cocoa-oauth"
+  s.name         = "PIX-cocoa-oauth"
   s.version      = "0.0.1"
   s.summary      = "This pod is created for non arc spec."
 
