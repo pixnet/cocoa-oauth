@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PIX-cocoa-oauth"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "This pod is created for non arc spec."
 
   s.description  = "This library is forked from https://github.com/guicocoa/cocoa-oauth"
@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/pixnet/cocoa-oauth.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/pixnet/cocoa-oauth.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
