@@ -279,7 +279,7 @@ static BOOL GCOAuthUseHTTPSCookieStorage = YES;
                         tokenSecret:(NSString *)tokenSecret {
     return [self URLRequestForPath:path HTTPMethod:@"GET" 
                         parameters:parameters 
-                            scheme:@"http" 
+                            scheme:@"https" 
                               host:host 
                        consumerKey:consumerKey 
                     consumerSecret:consumerSecret 
@@ -315,7 +315,7 @@ static BOOL GCOAuthUseHTTPSCookieStorage = YES;
     return [self URLRequestForPath:path
 						HTTPMethod:@"DELETE"
                         parameters:parameters
-                            scheme:@"http"
+                            scheme:@"https"
                               host:host
                        consumerKey:consumerKey
                     consumerSecret:consumerSecret
